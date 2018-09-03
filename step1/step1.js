@@ -1,3 +1,4 @@
+//Step 1 - Printing in Chunks
 var https = require('https');
 
 function getAndPrintHTMLChunks () {
