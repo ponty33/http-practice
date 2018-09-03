@@ -11,7 +11,7 @@ function getAndPrintHTML () {
   https.get(requestOptions, function (response) {
     var buffer;
     response.on('data', function (data) {
-      buffer = data;
+      buffer = buffer + data;
       console.log(buffer + '\n');
     });
     
